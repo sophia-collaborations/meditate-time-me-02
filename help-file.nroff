@@ -1,0 +1,33 @@
+.TH MEDITATE\-TIME\-ME\-02 1sc
+.SH NAME
+\fBmeditate\-time\-me\-02\fR
+.br
+	A second new-and-improved shell\-script tool for meditation timing.
+.SH SYNOPSIS
+\fB\(dq$(chobakwrap\-pathfind
+\\\fR
+.br
+		\fBmeditate\-time\-me\-02
+\\\fR
+.br
+		\fB\(dq${SH_SCRIP_TLL_PATH}\(dq)\(dq
+\\\fR
+.br
+		[\fIoptions\fR]
+.SH OPTIONS
+The options are processed in the order that they appear on the command line.
+Each option overrides any earlier option to it's contrary.
+.TP
+.BR \-\-help
+Displays this help file.
+If this option is invoked, the program will do nothing \fIexcept\fR
+display the help file.
+
+It should be noted that while this help\-file is written in the
+format of a \fBman\fR page, it's package does not actually
+\fIinstall\fR this help\-file as a \fBman\fR page.
+.TP
+.BR \-rloc " " [\fIdir\fR]
+This option sets the location of the resource directory to [\fIdir\fR] on the local filesystem.
+
+This is a mandatory argument - but usually it is added by the shell-script that uses this tool.
